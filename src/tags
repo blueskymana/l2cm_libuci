@@ -1,0 +1,63 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ASSEMBLY	l2_pcap.h	42;"	d
+CC	Makefile	/^CC := $(STAGING_DIR)\/bin\/mips-openwrt-linux-gcc$/;"	m
+CC_INC	Makefile	/^CC_INC := \/home\/liu\/9331\/m100\/build_dir\/target-mips_34kc_glibc-2.19\/uci-2015-08-27.1\/$/;"	m
+CC_INC_pcap	Makefile	/^CC_INC_pcap := \/home\/liu\/9331\/m100\/build_dir\/target-mips_34kc_glibc-2.19\/libpcap-1.5.3\/$/;"	m
+CROSS_GCCGO	Makefile	/^CROSS_GCCGO := $(STAGING_DIR)\/bin\/mips-openwrt-linux-gccgo$/;"	m
+CROSS_OBJCOPY	Makefile	/^CROSS_OBJCOPY := $(STAGING_DIR)\/bin\/mips-openwrt-linux-objcopy$/;"	m
+DEBUG	l2_log.h	10;"	d
+ETHER_ADDR_LEN	l2_pcap.h	31;"	d
+ETHER_TYPE_REQ	l2_pcap.h	20;"	d
+FLAG	Makefile	/^FLAG := -static-libgo$/;"	m
+HWADDR_len	getmac.c	16;"	d	file:
+L2_uci_set	l2_uci.c	/^int L2_uci_set(char *in)$/;"	f
+L2_uci_set_for	l2_uci.c	/^int L2_uci_set_for(char *in)$/;"	f
+MEMCPY_SAVE	l2_pcap.h	40;"	d
+Max	l2_pcap.h	/^    Max = 9$/;"	e	enum:__anon1
+Min	l2_pcap.h	/^    Min = 0,$/;"	e	enum:__anon1
+ROOT_DIR	Makefile	/^ROOT_DIR := \/home\/liu\/9331\/m100\/build_dir\/target-mips_34kc_glibc-2.19\/root-ar71xx\/$/;"	m
+RemoveSpaces	l2_pcap.c	/^int RemoveSpaces(char* source)$/;"	f
+SIZE_ETHERNET	l2_pcap.h	28;"	d
+SNAP_LEN	l2_pcap.h	25;"	d
+SRC	Makefile	/^SRC := l2_pcap.c l2_uci.c l2_log.c$/;"	m
+STAGING_DIR	Makefile	/^STAGING_DIR := \/home\/liu\/OpenWrt-Toolchain-ar71xx-generic_gcc-5.3.0_glibc-2.19.Linux-x86_64\/toolchain-mips_34kc_gcc-5.3.0_glibc-2.19$/;"	m
+Uci_get	l2_uci.c	/^int Uci_get(char *in, char *out)$/;"	f
+Uci_set_bak	l2_uci.c	/^int Uci_set_bak(char *in, char *value)$/;"	f
+_L2_LOG_H	l2_log.h	9;"	d
+_L2_PCAP_H	l2_pcap.h	9;"	d
+_L2_UCI_H	l2_uci.h	9;"	d
+eConfig	l2_pcap.h	/^    eConfig = 2,  \/\/ 配置信息$/;"	e	enum:__anon1
+eSave	l2_pcap.h	/^    eSave = 8,  \/\/ 使生效$/;"	e	enum:__anon1
+eVis	l2_pcap.h	/^    eVis = 4,  \/\/ 拓扑信息$/;"	e	enum:__anon1
+eWire	l2_pcap.h	/^    eWire = 1,$/;"	e	enum:__anon1
+ether_dhost	l2_pcap.h	/^    u_char  ether_dhost[ETHER_ADDR_LEN];    \/* destination host address *\/$/;"	m	struct:sniff_ethernet
+ether_shost	l2_pcap.h	/^    u_char  ether_shost[ETHER_ADDR_LEN];    \/* source host address *\/$/;"	m	struct:sniff_ethernet
+ether_type	l2_pcap.h	/^    u_short ether_type;                     \/* IP? ARP? RARP? etc *\/$/;"	m	struct:sniff_ethernet
+g_iFlag	l2_pcap.c	/^static int g_iFlag = 1;$/;"	v	file:
+getInterMac	l2_pcap.c	/^u_char *getInterMac(char *inter)$/;"	f
+getInterMac	test.c	/^u_char *getInterMac(char *inter)$/;"	f
+handle	l2_pcap.c	/^static pcap_t *handle;				\/* packet capture handle *\/$/;"	v	file:
+handle	test.c	/^static pcap_t *handle;				\/* packet capture handle *\/$/;"	v	file:
+l2_parse_packet	l2_pcap.c	/^void l2_parse_packet(u_char *args, const struct pcap_pkthdr *header, const u_char *packet)$/;"	f
+l2_parse_packet	test.c	/^void l2_parse_packet(u_char *args, const struct pcap_pkthdr *header, const u_char *packet)$/;"	f
+l2_send	l2_pcap.c	/^int l2_send(struct sniff_ethernet *ether, char type)$/;"	f
+l2_send	test.c	/^int l2_send(struct sniff_ethernet *ether)$/;"	f
+l2_send_type	l2_pcap.c	/^int l2_send_type(u_char *sendbuf, u_char *p,int type)$/;"	f
+mac_eth0	getmac.c	/^void mac_eth0(unsigned char MAC_str[13])$/;"	f
+main	getmac.c	/^int main()$/;"	f
+main	l2_pcap.c	/^int main(int argc, char **argv)$/;"	f
+main	test.c	/^int main(int argc, char **argv)$/;"	f
+print_hex_ascii_line	l2_log.c	/^print_hex_ascii_line(const u_char *payload, int len, int offset)$/;"	f
+print_hex_ascii_line	test.c	/^print_hex_ascii_line(const u_char *payload, int len, int offset)$/;"	f
+print_payload	l2_log.c	/^void print_payload(const u_char *payload, int len)$/;"	f
+print_payload	test.c	/^void print_payload(const u_char *payload, int len)$/;"	f
+read_cmd	l2_uci.c	/^int read_cmd(char *in, char *out)$/;"	f
+sniff_ethernet	l2_pcap.h	/^struct sniff_ethernet {$/;"	s
+u_char	l2_log.h	11;"	d
+u_char	l2_pcap.h	21;"	d
+u_short	l2_pcap.h	22;"	d

@@ -1,0 +1,13 @@
+
+send rcv
+
+
+### uci get set
+
+
+t1: receive buf --> receive_list
+t3: get all buf from send_list to send, then wait
+
+t2: get info from  receive_list, parse
+    and send buf --> send_list, and wake up t3
+
