@@ -200,7 +200,7 @@ int l2_send(struct sniff_ethernet *ether, char type)
             l2_send_type(buf, p, eVis);
         }
 
-        system("ip link show dev eth1 | grep 'UP mode' && ! pidof ethsend && /usr/bin/l2cm_libuci eth1 &");
+        system("ip link show dev eth1 | grep 'UP mode' && ! pidof l2cm_libuci && /usr/bin/l2cm_libuci eth1 &");
     }
     else
         //有线直连设置bssid
